@@ -193,3 +193,16 @@ address p {
   font-size: 30px;
   margin: 30px 0;
 }
+.privacy p {
+  margin: 0 10%;
+}
+.close { /* 후손 선택자: button 태그 내부에 class가 close인 요소 선택 */
+  background: #f46800;
+  color: white;
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  left: 300px; /* 왼쪽: 왼쪽에서 반대방향으로 50% 지점에 위치 */
+  top: 85%; /* 위쪽: 위쪽에서 반대방향으로  지점에 위치 */
+  margin-left: -60px; 
+}
